@@ -8,11 +8,7 @@ body {
   color: #ffffff;
 }
 
-.app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
-  text-align: center;
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
 }
