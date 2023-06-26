@@ -5,8 +5,8 @@ export default function Nav() {
     return (
         <nav>
             <div className="btn-container">
-                <Button link={"https://www.google.com"} text={"Contact!"} />
-                <Button link={"https://www.google.com"} text={"About"} />
+                <Button link={"https://research.typeform.com/to/K1xjThmG"} text={"Contact!"} />
+                
             </div>
         </nav>
     )
