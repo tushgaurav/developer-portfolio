@@ -1,0 +1,31 @@
+.download {
+    background-color: var(--download-btn);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.download a {
+    color: white;
+    text-decoration: none;
+}
+
+.download:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+.download:active {
+    background-color: #3e8e41;
+    color: white;
+}
+
+.download:visited {
+    background-color: #3e8e41;
+    color: white;
+}

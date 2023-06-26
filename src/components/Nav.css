@@ -1,0 +1,6 @@
+.btn-container {
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+    padding: 1em;
+}

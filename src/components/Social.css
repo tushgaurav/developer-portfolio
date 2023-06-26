@@ -1,0 +1,13 @@
+.social {
+    color: var(--font-color);
+    display: flex;
+    gap: 1em;
+}
+
+.social i {
+    font-size: 2em;
+}
+
+.social a {
+    color: var(--font-color);
+}

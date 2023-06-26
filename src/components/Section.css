@@ -1,0 +1,19 @@
+section {
+    max-width: 80ch;
+    padding: 1em 0;
+  
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    color: var(--section-title);
+}
+
+.section-text {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    color: var(--section-text);
+}
