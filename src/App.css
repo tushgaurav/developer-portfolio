@@ -1,10 +1,14 @@
 /* App.css */
 
+.background {
+  padding-bottom: 3em;
+}
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1em;
+  
 }
 
 .hero {
@@ -24,3 +28,4 @@ padding-bottom: 1em;
 font-size: 2em;
 letter-spacing: -3px;
 }
+

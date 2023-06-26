@@ -53,6 +53,7 @@ const qanda = [
 
 
   return (
+    <>
     <div className="background" ref={vantaRef}>
       <div className="container">
       <Nav />
@@ -64,24 +65,26 @@ const qanda = [
         </div>
         <AnimatedPrint />
       </div>
-{/* <Section 
-            title={qanda[0].question}
-            text={qanda[0].answer}
-          /> */}
-      {
-        qanda.map((question) => {
-          return <Section 
-            title={question.question}
-            text={question.answer}
-          />
-        })
-      }
-      
-    <DownloadBtn link="https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/Resume-Aniket+Aman.docx" />
-    <Social />
-    </div>
-    <Footer />
+      </div>
+      </div>
 
-    </div>
+      <div className="container">
+        
+        {
+          qanda.map((question) => {
+            return <Section 
+              title={question.question}
+              text={question.answer}
+            />
+          })
+        }
+        
+      <DownloadBtn link="https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/Resume-Aniket+Aman.docx" />
+      <Social />
+      
+      </div>
+      <Footer />
+</>
+    
   );
 }

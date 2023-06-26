@@ -17,4 +17,6 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: 'Roboto Flex', sans-serif;
+  background-color: rgb(9, 28, 8);
+  overflow-x: hidden;
 }
