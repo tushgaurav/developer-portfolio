@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500&display=swap");
 
 :root {
- --font-color: rgb(200, 231, 156);
- --section-title : rgb(229, 220, 220);
- --section-text: rgb(169, 246, 165);
- --download-btn: rgb(145, 211, 53);
- 
+  --font-color: rgb(200, 231, 156);
+  --section-title: rgb(229, 220, 220);
+  --section-text: rgb(169, 246, 165);
+  --download-btn: rgb(30, 82, 16);
 }
 
 * {
@@ -16,7 +14,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   background-color: rgb(9, 28, 8);
   overflow-x: hidden;
 }

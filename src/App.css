@@ -8,11 +8,10 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 1em;
-  
 }
 
 .hero {
-  color: var(--font-color );
+  color: var(--font-color);
   min-height: 50%;
 }
 
@@ -23,9 +22,8 @@
 }
 
 .hero h2 {
-font-weight: 400;
-padding-bottom: 1em;
-font-size: 2em;
-letter-spacing: -3px;
+  font-weight: 400;
+  padding-bottom: 1em;
+  font-size: 2em;
+  letter-spacing: -3px;
 }
-
