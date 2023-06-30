@@ -7,10 +7,7 @@ export default function Nav() {
       <div className="btn-container">
         <Button link={"/"} text={"Home"} />
         <Button link={"/projects"} text={"Projects"} />
-        <Button
-          link={"https://research.typeform.com/to/K1xjThmG"}
-          text={"Contact"}
-        />
+        <Button link={"/contact"} text={"Contact"} />
       </div>
     </nav>
   );
