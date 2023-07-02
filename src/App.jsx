@@ -3,12 +3,14 @@ import Section from "./components/Section";
 
 import Social from "./components/Social";
 
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import DownloadBtn from "./components/DownloadBtn";
 
 export default function App() {
   return (
     <>
+      <Header />
       <div className="container">
         <Section
           title="About Me"

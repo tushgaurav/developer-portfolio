@@ -1,4 +1,5 @@
 import "./projects.css";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProjectShowcase from "../components/extended/ProjectShowcase/ProjectShowcase";
 
@@ -67,6 +68,7 @@ export default function Projects() {
   ];
   return (
     <>
+      <Header />
       <div className="container">
         <div className="projects">
           <div className="title">

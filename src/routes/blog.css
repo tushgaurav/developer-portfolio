@@ -1,0 +1,19 @@
+.blog-title {
+  color: var(--font-color);
+}
+
+.body {
+  color: var(--section-text);
+}
+
+.datetime {
+  color: black;
+  background-color: var(--font-color);
+  padding: 0.1em 0.3em;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.react-md {
+  white-space: "pre-wrap";
+}
