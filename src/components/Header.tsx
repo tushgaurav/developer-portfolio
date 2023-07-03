@@ -31,7 +31,7 @@ export default function Header() {
             <div className="container">
                 <Nav />
                 <div className="hero">
-                    <div>
+                    <div >
                         <h1>Aniket Aman</h1>
                         <h2>Web Developer</h2>
                     </div>

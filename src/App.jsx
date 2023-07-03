@@ -25,6 +25,7 @@ export default function App() {
           text="
           I have pursued a Bachelor of Technology in Computer Science and Engineering from Noida Institute of Engineer & Technology in Greater Noida. I graduated in 2024 with an academic scholarship and a GPA of 8.0. Prior to that, I completed my Class XII and Class X from Sunbeam Suncity School in Varanasi, UP, achieving 90.6% and 9.4 CGPA respectively.
         "
+          className="glass"
         />
 
         <Section

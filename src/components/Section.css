@@ -1,12 +1,14 @@
 section {
   max-width: 80ch;
-  padding: 1em 0;
+  padding: 1em;
+  margin: 1em 0;
 }
 
 .section-title {
   font-size: 1.8em;
   font-weight: 600;
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
   color: var(--section-title);
 }
 
