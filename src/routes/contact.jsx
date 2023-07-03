@@ -1,5 +1,6 @@
 import { Widget } from "@typeform/embed-react";
 import Header from "../components/Header";
+import Loading from "../components/Loading";
 import Footer from "../components/Footer";
 
 export default function Contact() {

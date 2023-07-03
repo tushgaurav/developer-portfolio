@@ -3,6 +3,7 @@ import "./blog.css";
 import useFetch from "../hooks/useFetch";
 import { Helmet } from "react-helmet";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Loading from "../components/Loading";
 
 function formatDate(value, locale = "en-IN") {
   let time = new Date(value).toLocaleTimeString(locale);
@@ -21,7 +22,7 @@ export default function Blog() {
   );
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   if (error) {

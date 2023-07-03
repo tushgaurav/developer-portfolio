@@ -2,6 +2,7 @@ import useFetch from "../hooks/useFetch";
 import BlogPostThumbnail from "../components/sections/BlogPostThumbnail/BlogPostThumbnail";
 import { Helmet } from "react-helmet";
 import Button from "../components/Button";
+import Loading from "../components/Loading";
 
 const URL = import.meta.env.VITE_STRAPI_PUBLIC_URL;
 
@@ -30,7 +31,7 @@ export default function Blogs() {
             <br />
             Hope you enjoy reading them.
           </div>
-          {loading && <div>Loading...</div>}
+          {loading && <Loading />}
           {error && <div>Error: {error}</div>}
           {data &&
             data.map((blog) => (
