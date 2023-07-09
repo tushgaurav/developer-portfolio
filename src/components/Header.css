@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+  .hero {
+    margin-left: 1em;
+  }
+  .hero h1 {
+    font-size: 2.6em;
+  }
+  .hero h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .background {
+    margin-bottom: 1.5em;
+  }
+}

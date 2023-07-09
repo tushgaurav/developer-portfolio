@@ -3,8 +3,8 @@
 :root {
   --font-color: rgb(200, 231, 156);
   --section-title: rgb(229, 220, 220);
-  --section-text: rgb(169, 246, 165);
-  --download-btn: rgb(30, 82, 16);
+  --section-text: rgb(196, 232, 195);
+  --download-btn: rgb(58, 154, 31);
 }
 
 * {

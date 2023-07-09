@@ -1,17 +1,18 @@
 button {
-    border-radius: 5px;
-    padding: 0.6em 1em;
-    border: 0;
-    margin: 5px 0;
-    background-color: rgb(12, 65, 44);
+  border-radius: 5px;
+  padding: 0.6em 1em;
+  border: 0;
+  margin: 5px 0;
+  background-color: rgb(12, 65, 44);
 }
 
 button + button {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 button a {
-    text-decoration: none;
-    color: yellow;
-    font-size: 1.2em;
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 1.2em;
 }
