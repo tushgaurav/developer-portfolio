@@ -1,13 +1,19 @@
 .social {
-    color: var(--font-color);
-    display: flex;
-    gap: 1em;
+  margin-left: 1em;
+  color: var(--font-color);
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 
 .social i {
-    font-size: 2em;
+  font-size: 2em;
+}
+
+.social i:hover {
+  color: var(--download-btn);
 }
 
 .social a {
-    color: var(--font-color);
+  color: var(--font-color);
 }
