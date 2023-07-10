@@ -7,52 +7,53 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Website | Full-Stack Project",
+      title: "Soo Social | MERN Stack Project",
       description:
-        "Developed a comprehensive e-commerce website using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented features such as user authentication, product listings, shopping cart functionality, and secure payment processing.",
+        "Developed a comprehensive social media website using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented features such as user authentication, product listings, shopping cart functionality, and secure payment processing.",
       image_link:
-        "https://attainu.com/blog/wp-content/uploads/2022/04/Screenshot-148-lg.png",
-      project_link: "https://example.com/ecommerce-website",
+        "https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/ProjectsImages/social.jpeg",
+      project_link: "https://github.com/aniketaman17/Soo-Social-MERN-Stack",
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
     },
     {
       id: 2,
-      title: "Blogging Platform | MEAN Stack Project",
+      title: "MeloTunes | Music Player Application",
       description:
-        "Created a dynamic blogging platform using the MEAN stack (MongoDB, Express.js, Angular, Node.js). Enabled users to create and publish blog posts, comment on posts, and engage in social interactions within the platform.",
+        "Built a music player application using React.js and Node.js. Implemented features such as song search, playlist creation, and real-time lyrics display to provide a seamless music listening experience. ",
       image_link:
-        "https://dz7xwpjzpkel8.cloudfront.net/production/31594-user1-1672054691.png",
-      project_link: "https://example.com/blogging-platform",
-      technologies: ["MongoDB", "Express.js", "Angular", "Node.js"],
+        "https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/ProjectsImages/music.jpeg",
+      project_link: "https://music-player-aniket.netlify.app/",
+      technologies: ["JavaScript", "HTML", "CSS"],
     },
     {
       id: 3,
-      title: "Personal Portfolio Website | Front-End Project",
+      title: "EduFord University | University Website",
       description:
-        "Designed and developed a professional and visually appealing personal portfolio website using HTML, CSS, and JavaScript. Showcased projects, skills, and achievements, and provided a platform to highlight personal experiences and aspirations.",
+        "Built a university website using HTML, CSS, and JavaScript. Implemented features such as course listings, faculty information, and student testimonials to provide a comprehensive overview of the university.",
       image_link:
-        "https://repository-images.githubusercontent.com/384091706/a1614500-e03f-11eb-986a-30f6f0d4f1cc",
-      project_link: "https://example.com/personal-portfolio",
+        "https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/ProjectsImages/eduford.jpeg",
+      project_link: "https://university-website-aniket.netlify.app/",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
       id: 4,
-      title: "Task Management Application | React Native Project",
+      title: "The Sparks Foundation | Internship Project",
       description:
-        "Built a cross-platform mobile application using React Native for efficient task management and organization. Implemented features such as task creation, assignment, deadlines, reminders, and progress tracking to enhance productivity.",
-      image_link: "https://i.morioh.com/201102/5a79ad23.webp",
-      project_link: "https://example.com/task-management-app",
+        "Build a website that takes donations for the COVID-19 relief fund. Implemented features such as payment processing, donation tracking, and donor information storage to provide a seamless donation experience. ",
+      image_link:
+        "https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/ProjectsImages/sparks_foundation.jpeg",
+      project_link: "https://payment-gateway-aniket.netlify.app/",
       technologies: ["React Native", "JavaScript"],
     },
     {
       id: 5,
-      title: "Movie Recommendation System | Machine Learning Project",
+      title: "puzzleVerse | puzzleVerse Website",
       description:
-        "Developed a movie recommendation system using Python and machine learning algorithms. Utilized collaborative filtering techniques to analyze user preferences and provide personalized movie recommendations.",
+        "Developed a website that allows users to play a variety of puzzles. Implemented features such as user authentication, puzzle selection, and real-time scoring to provide a seamless puzzle-solving experience. ",
       image_link:
-        "https://labelyourdata.com/img/article-illustrations/movie_recommender_system.jpg",
-      project_link: "https://example.com/movie-recommendation-system",
-      technologies: ["Python", "Machine Learning"],
+        "https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/ProjectsImages/puzzle_verse.jpeg",
+      project_link: "https://puzzle-verse.netlify.app/",
+      technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
       id: 6,
