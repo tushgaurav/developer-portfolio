@@ -10,7 +10,14 @@ const ProjectShowcase = ({
   return (
     <div className="project-showcase">
       <h2 className="project-title">{title}</h2>
-      <img className="project-image" src={image_link} alt={title} />
+      <div className="project-image-container">
+        <img className="project-image" src={image_link} alt={title} />
+        <div className="project-overlay">
+          <a href={project_link} target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </div>
+      </div>
       <div className="project-tags">
         {technologies.map((technology, index) => (
           <span key={index} className="tag">
