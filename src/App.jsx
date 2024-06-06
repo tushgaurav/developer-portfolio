@@ -33,7 +33,7 @@ export default function App() {
           text="I possess a diverse set of hobbies. Writing poetry allows me to express my creativity and emotions while exploring different forms of self-expression. Additionally, my love for food inspires me to explore different culinary experiences and experiment with various recipes. Exploring new places and traveling not only satisfies my curiosity but also broadens my horizons and exposes me to different cultures and perspectives."
         />
 
-        <DownloadBtn link="https://prokits.s3.ap-south-1.amazonaws.com/aniket.us/Resume-Aniket+Aman.docx" />
+        <DownloadBtn link="https://drive.google.com/file/d/1-hJQO4BkkQRxc4OKXU_F0xLBpwwazmBq/view?usp=drivesdk" />
         <Social />
       </div>
       <Footer />
